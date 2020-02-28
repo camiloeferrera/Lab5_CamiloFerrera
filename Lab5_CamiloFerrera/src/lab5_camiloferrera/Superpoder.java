@@ -30,5 +30,11 @@ public class Superpoder {
     public void setMortal(boolean mortal) {
         this.mortal = mortal;
     }
+
+    @Override
+    public String toString() {
+        return descripcion;
+    }
+    
     
 }

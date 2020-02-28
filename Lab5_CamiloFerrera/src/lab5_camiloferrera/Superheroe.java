@@ -4,15 +4,16 @@ import java.util.ArrayList;
 
 public class Superheroe {
     private String nombre, planeta;
-    private int edad, altura, villanosatrapados = 0;
+    private int edad, villanosatrapados = 0;
+    private double altura;
     private ArrayList <Superpoder> superpoderes = new ArrayList();
 
-    public Superheroe(String nombre, String planeta, int edad, int altura) {
+    public Superheroe(String nombre, String planeta, int edad, double altura) {
         this.nombre = nombre;
         this.planeta = planeta;
         this.edad = edad;
         this.altura = altura;
-    }
+    }   
 
     public String getNombre() {
         return nombre;
@@ -23,7 +24,7 @@ public class Superheroe {
     public int getEdad() {
         return edad;
     }
-    public int getAltura() {
+    public double getAltura() {
         return altura;
     }
     public int getVillanosatrapados() {
@@ -43,7 +44,7 @@ public class Superheroe {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-    public void setAltura(int altura) {
+    public void setAltura(double altura) {
         this.altura = altura;
     }
     public void setVillanosatrapados(int villanosatrapados) {
