@@ -61,6 +61,11 @@ public class Villano {
     public void setSuperpoderes(ArrayList<Superpoder> superpoderes) {
         this.superpoderes = superpoderes;
     }
+
+    @Override
+    public String toString() {
+        return nombre;
+    }
     
     
     

@@ -48,10 +48,15 @@ public class Superheroe {
         this.altura = altura;
     }
     public void setVillanosatrapados(int villanosatrapados) {
-        this.villanosatrapados = villanosatrapados;
+        this.villanosatrapados += villanosatrapados;
     }
     public void setSuperpoderes(ArrayList<Superpoder> superpoderes) {
         this.superpoderes = superpoderes;
+    }
+
+    @Override
+    public String toString() {
+        return nombre;
     }
     
     
